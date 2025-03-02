@@ -1,0 +1,32 @@
+.video-upload-container {
+    text-align: center; /* Ensures all child elements inside are centered */
+  }
+  
+  .video-upload-container .file-input,
+  .video-upload-container .upload-button {
+    display: block;
+    width: 80%; /* Adjust width for better alignment */
+    max-width: 300px; /* Keep it visually balanced */
+    margin: 15px auto; /* Centers the elements */
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .upload-button {
+    background: linear-gradient(135deg, rgba(0, 200, 255, 0.5), rgba(0, 255, 150, 0.7));
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .upload-button:hover {
+    background: linear-gradient(135deg, rgba(0, 255, 200, 0.7), rgba(0, 200, 255, 0.9));
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 200, 255, 0.6);
+  }
+  
